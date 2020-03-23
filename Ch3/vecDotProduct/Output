@@ -1,0 +1,18 @@
+Enter the GPU ID: 1
+Set GPU with device ID = 1
+Vector Dot Product: A.B
+Enter the size of the vectors: 81920007
+Enter the number (2^m) of threads per block: 256
+Enter the number of blocks per grid: 128
+Input time for GPU: 111.893311 (ms) 
+Processing time for GPU: 4.781696 (ms) 
+GPU Gflops: 34.263997
+Output time for GPU: 13.173984 (ms) 
+Total time for GPU: 129.848984 (ms) 
+Processing time for CPU: 114.629181 (ms) 
+CPU Gflops: 1.429305
+Speed up of GPU = 0.882788
+Check result:
+|(h_G - h_D)/h_D|=9.493016477790661e-06
+h_G =-5.933947143554688e+02
+h_D =-5.933890813031211e+02
