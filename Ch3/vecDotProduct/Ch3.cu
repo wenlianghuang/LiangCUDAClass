@@ -56,12 +56,17 @@ __global__ void VecDot(const float* A, const float* B, float* C, int N)
       C[blockIdx.x] = cache[0];
     **/
     
-    if(N >= 100000000)
-        if(cacheIndex == 0)
+    if(N >= 100000000){
+        if(cacheIndex == 0){
             atomicAdd(C,cache[0]);
-    else
-        if(cacheIndex == 0)
-            C[blockDim.x] = cache[0];
+        }
+    }
+
+    else{
+        if(cacheIndex == 0){
+            C[blockIdx.x] = cache[0];
+        }
+    }
 }
 
 // Host code
