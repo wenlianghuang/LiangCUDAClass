@@ -1,0 +1,22 @@
+
+Vector Dot with multiple GPUs 
+Enter the number of GPUs: 1
+GPU device number: 1 
+Enter the size of the vectors: 81920007
+Enter the number of threads per block: 256
+Eneter the number of the blocks per grid: 128
+cpu_thread_id: 0
+Data input time for GPU: 111.536896 (ms) 
+Processing time for GPU: 4.755392 (ms) 
+GPU Gflops: 34.453524
+Data output time for GPU: 13.168704 (ms) 
+Test0
+Test1
+Total time for GPU: 129.460999 (ms) 
+Processing time for CPU: 220.445221 (ms) 
+CPU Gflops: 0.743223
+Speed up of GPU = 1.702793
+Check result:
+|h_G - h_D|/h_G=4.245961608830839e-04
+h_D = -5.936466674804688e+02
+h_G = -5.933947143554688e+02

@@ -1,0 +1,11 @@
+2
+0 1
+81920007
+256
+128
+
+# N_GPU
+# device number
+# vector size
+# threads per block
+# blocks per grid
