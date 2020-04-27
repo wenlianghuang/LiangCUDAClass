@@ -25,16 +25,24 @@ y_data = np.array(y_data)
 
 #parameters with curve fit
 params, params_covariance = optimize.curve_fit(test_func, hist_data, y_data)
-fig = plt.figure()
+fig_dims = (10,5)
+fig = plt.figure(figsize = fig_dims)
 plt.title(datfile.split(".")[0] + " Output")
 x = np.linspace(0,20,101)
 y = test_func(hist_data,*params)
+plt.subplot(121)
 plt.bar(hist_data,y_data,color='#99ff33',label='Data')
 plt.plot(x,y,'r',label='fit: a=%5.3f, b=%5.3f' %(params[0],params[1]))
 plt.xlabel('hist_value')
 plt.ylabel('y_value')
-
 plt.legend()
+
+plt.subplot(122)
+plt.scatter(hist_data,y_data,color='#99ff33',label='Data')
+plt.plot(x,y,'r',label='fit: a=%5.3f, b=%5.3f' %(params[0],params[1]))
+plt.xlabel('hist_value')
+plt.legend()
+
 plt.show()
 if(datfile.find("gmem") != -1):
     fig.savefig("Output_gmem.png")
