@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Final_Proposal.aux
+The style file: unsrt.bst
+Database file #1: sample.bib
+Warning--empty booktitle in Keskin2017AnEP
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            458 strings with 3859 characters,
+and the built_in function-call counts, 434 in all, are:
+= -- 27
+> -- 19
+< -- 0
++ -- 8
+- -- 5
+* -- 10
+:= -- 72
+add.period$ -- 7
+call.type$ -- 3
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 21
+empty$ -- 60
+format.name$ -- 5
+if$ -- 99
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 1
+newline$ -- 16
+num.names$ -- 3
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 15
+stack$ -- 0
+substring$ -- 0
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 3
+width$ -- 4
+write$ -- 25
+(There was 1 warning)

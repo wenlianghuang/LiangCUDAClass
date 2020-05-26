@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{FFT}
+Fast~Fourier Transform.
+\newblock \url{https://en.wikipedia.org/wiki/Fast_Fourier_transform}.
+
+\bibitem{Cooley-Tuckey}
+Cooley-Tuckey Algorigthm.
+\newblock \url{https://en.wikipedia.org/wiki/Cooley-Tukey_FFT_algorithm}.
+
+\bibitem{Keskin2017AnEP}
+Selcuk Keskin, Ertunc Erdil, and T.~Kocak.
+\newblock An efficient parallel implementation of 3 d-fft on gpu.
+\newblock 2017.
+
+\end{thebibliography}
